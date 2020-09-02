@@ -12,4 +12,4 @@ Application:
 - JavaScript - Used to make the pages interactive
 - Bootstrap - Used as a front-end framework to make the web pages faster and easier.
 
-Website: ## <a href="https://yitzhakalvarez.github.io"
+Website: ## <a href="https://yitzhakalvarez.github.io"</a>
