@@ -705,7 +705,7 @@ li.timeline-item::before {
 }
 
 /*--- Media Queries ---*/
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 990px)
 {
   .carousel-caption h1
 {
