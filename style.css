@@ -80,80 +80,15 @@ h3.heading
   font-weight: 700;
   letter-spacing: .5rem;
   text-shadow: .1rem .1rem .8rem black;
-  padding-bottom: 5rem;
+  padding-bottom: 1.9rem;
 }
-.btn-lg
+.btn-light
 {
-  border-width: medium;
-  border-radius: 0;
+  border-radius: 10rem;
   font-size: 1rem;
 }
 
-/*--- Portraits Section ---*/
 
-p.heading
-{
-  text-align: center;
-}
-
-p.heading > a
-{
-  background-color: #9ebb1e;
-}
-
-p.heading > a:hover 
-{
-  background-color: #c1e61f;
-}
-
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-
-.row {
-  margin: 8px -20px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 5px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 
 h5.heading
 {
