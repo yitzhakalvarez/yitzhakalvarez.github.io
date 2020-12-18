@@ -411,17 +411,145 @@ section {
 
 .card-container .card {
   border: solid 1px #9e9b9b;
-  margin: 10px;
+  margin: 5px;
 }
 
 .card-container .card .card-body {
-  padding: 25px;
+  padding: 20px;
 }
 
 .card-container .card img.card-img {
   height: 212px;
   width: 212px;
   object-fit: cover;
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .card-container .card .card-body {
+    padding: 5px;
+  }
+  .card-container .card img.card-img {
+    height: 145px;
+    width: 145px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .card-container .card img.card-img {
+    height: 240px;
+    width: 240px;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .card-container .card img.card-img {
+    height: 175px;
+    width: 175px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .card-container .card img.card-img {
+    height: 255px;
+    width: 255px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .card-container .card {
+    border: solid 1px #9e9b9b;
+    margin: 5px;
+  }
+  .card-container .card .card-body {
+    padding: 5px;
+  }
+  .card-container .card img.card-img {
+    height: 195px;
+    width: 195px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .card-container .card {
+    border: solid 1px #9e9b9b;
+    margin: 5px;
+  }
+  .card-container .card .card-body {
+    padding: 5px;
+  }
+  .card-container .card img.card-img {
+    height: 175px;
+    width: 175px;
+  }
+}
+
+/* ----------- iPhone 11 and XR ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .card-container .card {
+    border: solid 1px #9e9b9b;
+    margin: 5px;
+  }
+  .card-container .card .card-body {
+    padding: 5px;
+  }
+  .card-container .card img.card-img {
+    height: 195px;
+    width: 195px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .card-container .card img.card-img {
+    height: 220px;
+    width: 220px;
+  }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .card-container .card {
+    border: solid 1px #9e9b9b;
+    margin: 5px;
+  }
+  .card-container .card .card-body {
+    padding: 5px;
+  }
+  .card-container .card img.card-img {
+    height: 175px;
+    width: 175px;
+  }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .card-container .card {
+    border: solid 1px #9e9b9b;
+    margin: 5px;
+  }
+  .card-container .card .card-body {
+    padding: 5px;
+  }
+  .card-container .card img.card-img {
+    height: 175px;
+    width: 175px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -672,18 +800,6 @@ section {
   }
 }
 
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .contact .info p {
-    padding: 0 0 10px 60px;
-    margin-bottom: 20px;
-    font-size: 12px;
-    color: #173b6c;
-  }
-}
-
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait and Landscape */
@@ -729,252 +845,6 @@ section {
     margin-bottom: 20px;
     font-size: 15px;
     color: #173b6c;
-  }
-}
-
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.carousel-item {
-  height: 100vh;
-}
-.carousel-caption {
-  position: absolute;
-  top: 60%;
-  text-transform: uppercase;
-  width: 100%;
-  right: 0;
-  left: 0;
-}
-.carousel-caption h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  letter-spacing: 0.5rem;
-  text-shadow: 0.1rem 0.1rem 0.8rem black;
-  padding-bottom: 1.9rem;
-}
-.btn-light {
-  border-radius: 10rem;
-  font-size: 1rem;
-}
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .carousel-caption {
-    position: absolute;
-    top: 70%;
-    text-transform: uppercase;
-    width: 100%;
-    right: 0;
-    left: 0;
-  }
-}
-
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  .carousel-caption {
-    position: absolute;
-    top: 70%;
-    text-transform: uppercase;
-    width: 100%;
-    right: 0;
-    left: 0;
-  }
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .carousel-caption {
-    position: absolute;
-    top: 70%;
-    text-transform: uppercase;
-    width: 100%;
-    right: 0;
-    left: 0;
-  }
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  .carousel-caption {
-    position: absolute;
-    top: 70%;
-    text-transform: uppercase;
-    width: 100%;
-    right: 0;
-    left: 0;
-  }
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .carousel-caption {
-    position: absolute;
-    top: 70%;
-    text-transform: uppercase;
-    width: 100%;
-    right: 0;
-    left: 0;
-  }
-}
-
-/* ----------- iPhone 11 and XR ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
-  .carousel-caption {
-    position: absolute;
-    top: 70%;
-    text-transform: uppercase;
-    width: 100%;
-    right: 0;
-    left: 0;
-  }
-}
-
-/*--- Projects Section ---*/
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card-container .card {
-  border: solid 1px #9e9b9b;
-  margin: 5px;
-}
-
-.card-container .card .card-body {
-  padding: 20px;
-}
-
-.card-container .card img.card-img {
-  height: 212px;
-  width: 212px;
-  object-fit: cover;
-}
-
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  .card-container .card {
-    border: solid 1px #9e9b9b;
-    margin: 5px;
-  }
-  .card-container .card .card-body {
-    padding: 5px;
-  }
-  .card-container .card img.card-img {
-    height: 145px;
-    width: 145px;
-  }
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .card-container .card {
-    border: solid 1px #9e9b9b;
-    margin: 5px;
-  }
-  .card-container .card .card-body {
-    padding: 5px;
-  }
-  .card-container .card img.card-img {
-    height: 175px;
-    width: 175px;
-  }
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  .card-container .card {
-    border: solid 1px #9e9b9b;
-    margin: 5px;
-  }
-  .card-container .card .card-body {
-    padding: 5px;
-  }
-  .card-container .card img.card-img {
-    height: 195px;
-    width: 195px;
-  }
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .card-container .card {
-    border: solid 1px #9e9b9b;
-    margin: 5px;
-  }
-  .card-container .card .card-body {
-    padding: 5px;
-  }
-  .card-container .card img.card-img {
-    height: 175px;
-    width: 175px;
-  }
-}
-
-/* ----------- iPhone 11 and XR ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
-  .card-container .card {
-    border: solid 1px #9e9b9b;
-    margin: 5px;
-  }
-  .card-container .card .card-body {
-    padding: 5px;
-  }
-  .card-container .card img.card-img {
-    height: 195px;
-    width: 195px;
-  }
-}
-
-/* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  .card-container .card {
-    border: solid 1px #9e9b9b;
-    margin: 5px;
-  }
-  .card-container .card .card-body {
-    padding: 5px;
-  }
-  .card-container .card img.card-img {
-    height: 175px;
-    width: 175px;
-  }
-}
-
-/* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  .card-container .card {
-    border: solid 1px #9e9b9b;
-    margin: 5px;
-  }
-  .card-container .card .card-body {
-    padding: 5px;
-  }
-  .card-container .card img.card-img {
-    height: 175px;
-    width: 175px;
   }
 }
 
