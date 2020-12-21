@@ -566,85 +566,55 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact {
-  font-family: 'Poppins', sans-serif;
-  padding: 5rem 0 0rem;
-  position: center;
-  padding-bottom: 110px;
-}
 .contact .info {
-  padding: 30px;
-  background: #fff;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
 }
+
 .contact .info i {
   font-size: 20px;
   color: #0563bb;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #eef7ff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
+
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #45505b;
 }
+
 .contact .info p {
-  padding: 0 0 10px 60px;
-  margin-bottom: 20px;
-  font-size: 18px;
-  color: #173b6c;
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #728394;
 }
-.contact .info .email p {
-  padding-top: 5px;
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
 }
-.contact .info .social-links {
-  padding-left: 60px;
-}
-.contact .info .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  border-radius: 50%;
-  text-align: center;
-  width: 25px;
-  height: 25px;
-  transition: 0.3s;
-  margin-right: 10px;
-}
-.contact .info .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
-}
+
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i,
-.contact .info .text:hover i {
-  background: #1f88eb;
+.contact .info .phone:hover i {
+  background: #0563bb;
   color: #fff;
 }
+
 .contact svg.svg-inline--fa {
   font-size: 1.6rem;
   margin: 1.2rem 0.5rem 0 0;
-}
-
-.contact .email-form {
-  width: 100%;
-  padding: 30px;
-  background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .contact .email-form .form-group {
@@ -677,6 +647,30 @@ section {
   background: #1f88eb;
 }
 
+#contact .social-links {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#contact .social-links a {
+  font-size: 20px;
+  display: inline-block;
+  background: #728394;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#contact .social-links a:hover {
+  background: #1f88eb;
+  color: #fff;
+}
+
 #fs-frm label,
 #fs-frm input,
 #fs-frm select,
@@ -685,7 +679,7 @@ section {
 #fs-frm optgroup,
 #fs-frm #card-element:disabled {
   font-family: inherit;
-  font-size: 110%;
+  font-size: 100%;
   border: none;
   border-radius: 0;
   display: block;
@@ -699,7 +693,7 @@ section {
 #fs-frm label,
 #fs-frm legend,
 #fs-frm ::placeholder {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
   padding-top: 0.2rem;
   display: flex;
@@ -713,8 +707,7 @@ section {
 #fs-frm #card-element {
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 0.75em 1rem;
-  margin-bottom: 1.5rem;
+  padding: 0.5em 1rem;
 }
 
 #fs-frm input:focus,
@@ -810,28 +803,37 @@ section {
     transform: rotate(360deg);
   }
 }
-
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .contact .info p {
-    padding: 0 0 10px 60px;
-    margin-bottom: 20px;
-    font-size: 12px;
-    color: #173b6c;
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #728394;
   }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .contact .info p {
-    padding: 0 0 10px 60px;
-    margin-bottom: 20px;
-    font-size: 15px;
-    color: #173b6c;
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #728394;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #728394;
   }
 }
 
@@ -840,10 +842,10 @@ section {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .contact .info p {
-    padding: 0 0 10px 60px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    color: #173b6c;
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #728394;
   }
 }
 
@@ -852,10 +854,42 @@ section {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .contact .info p {
-    padding: 0 0 10px 60px;
-    margin-bottom: 20px;
-    font-size: 15px;
-    color: #173b6c;
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #728394;
+  }
+}
+
+/* ----------- iPhone 11 and XR ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #728394;
+  }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #728394;
+  }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #728394;
   }
 }
 
