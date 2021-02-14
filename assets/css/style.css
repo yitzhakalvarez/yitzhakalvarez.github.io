@@ -689,6 +689,9 @@ section {
     padding: 10px;
     text-align: center;
   }
+  .grid .text i {
+    font-size: 30px;
+  }
 }
 
 /* Landscape */
@@ -705,6 +708,9 @@ section {
   .grid .text {
     padding: 10px;
     text-align: center;
+  }
+  .grid .text i {
+    font-size: 30px;
   }
 }
 
@@ -725,6 +731,9 @@ section {
     padding: 15px;
     text-align: center;
   }
+  .grid .text i {
+    font-size: 30px;
+  }
 }
 
 /* Landscape */
@@ -741,6 +750,9 @@ section {
   .grid .text {
     padding: 15px;
     text-align: center;
+  }
+  .grid .text i {
+    font-size: 30px;
   }
 }
 
@@ -761,6 +773,9 @@ section {
     padding: 10px;
     text-align: center;
   }
+  .grid .text i {
+    font-size: 30px;
+  }
 }
 
 /* ----------- iPhone X ----------- */
@@ -779,6 +794,9 @@ section {
   .grid .text {
     padding: 10px;
     text-align: center;
+  }
+  .grid .text i {
+    font-size: 30px;
   }
 }
 
@@ -799,6 +817,9 @@ section {
     padding: 10px;
     text-align: center;
   }
+  .grid .text i {
+    font-size: 30px;
+  }
 }
 
 /* Landscape */
@@ -815,6 +836,9 @@ section {
   .grid .text {
     padding: 10px;
     text-align: center;
+  }
+  .grid .text i {
+    font-size: 30px;
   }
 }
 
@@ -833,6 +857,9 @@ section {
     padding: 15px;
     text-align: center;
   }
+  .grid .text i {
+    font-size: 30px;
+  }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -849,6 +876,9 @@ section {
   .grid .text {
     padding: 15px;
     text-align: center;
+  }
+  .grid .text i {
+    font-size: 30px;
   }
 }
 
