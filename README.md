@@ -1,6 +1,6 @@
 # Yitzhak Alvarez Portfolio
 Website: 
-<a href="https://yitzhakalvarez.github.io">yitzhakalvarez.github.io</a>
+<a href="https://yitzhakalvarez.com">yitzhakalvarez.com</a>
 
 ## About ##
 
