@@ -374,34 +374,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # About
-  --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #728394;
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding-bottom: 10px;
-}
-
-.about .content ul i {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #0563bb;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
@@ -460,27 +432,6 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #0563bb;
-}
-
-.experience-img {
-  float: left;
-  width: 5em;
-  height: 6em;
-  margin-right: 20px;
-}
-
-.experience-img {
-  clear: none;
-}
-
-.experience-img img {
-  -webkit-border-radius: 25%;
-  -moz-border-radius: 25%;
-  border-radius: 15%;
-  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
-  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
-  width: 100%;
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */

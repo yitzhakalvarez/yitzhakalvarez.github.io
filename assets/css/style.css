@@ -406,7 +406,7 @@ section {
 --------------------------------------------------------------*/
 .technical {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -480,6 +480,9 @@ section {
 .skill-title h3 {
   color: rgb(17, 16, 16);
   margin-top: 0.5rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
 }
 .skill-icon {
   width: 50px;
@@ -527,11 +530,11 @@ section {
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
-/* Portrait */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+/* Portrait & Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .technical {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -541,25 +544,6 @@ section {
   }
   .skill-box {
     padding: 2rem;
-    color: #ddd;
-    cursor: pointer;
-  }
-}
-
-/* Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  .technical {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    grid-gap: 0rem;
-    padding: 1rem 80px;
-    font-size: 1.2rem;
-  }
-  .skill-box {
-    padding: 1rem;
     color: #ddd;
     cursor: pointer;
   }
@@ -580,7 +564,7 @@ section {
     font-size: 1.2rem;
   }
   .skill-box {
-    padding: 1rem;
+    padding: 0rem;
     color: #ddd;
     cursor: pointer;
   }
@@ -634,7 +618,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    grid-gap: 0rem;
+    grid-gap: 1rem;
     padding: 1rem 80px;
     font-size: 1.2rem;
   }
