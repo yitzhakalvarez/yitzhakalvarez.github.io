@@ -4,7 +4,7 @@ Website:
 
 ## About ##
 
-This is my web-based portfolio describing all the works I've done in the past, from school to personal projects.
+This is my web-based portfolio describing all the works I've done in the past, from school to personal projects to photography.
 
 ## Tech ##
 
