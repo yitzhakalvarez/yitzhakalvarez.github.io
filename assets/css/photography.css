@@ -372,6 +372,13 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+
+/*--- About Section ---*/
+
+p.bx bxl-twiter {
+  size: 30rem;
+}
+
 /*--- Portraits Section ---*/
 
 p.heading {
