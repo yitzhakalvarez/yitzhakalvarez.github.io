@@ -642,7 +642,7 @@ ul.timeline {
 /* Timeline vertical line */
 ul.timeline:before {
   content: ' ';
-  background: #000000;
+  background: #0563bb;
   display: inline-block;
   position: absolute;
   left: 16px;
