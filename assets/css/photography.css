@@ -798,7 +798,17 @@ img {
 
 /* ----------- iPhone 11 and XR ----------- */
 
-/* Portrait and Landscape */
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #728394;
+  }
+}
+
+/* Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .contact .info p {
     padding: 0 0 0 60px;
@@ -813,7 +823,7 @@ img {
   .contact .info p {
     padding: 0 0 0 60px;
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 16px;
     color: #728394;
   }
 }
@@ -823,7 +833,7 @@ img {
   .contact .info p {
     padding: 0 0 0 60px;
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 16px;
     color: #728394;
   }
 }
